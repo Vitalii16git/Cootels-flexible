@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(191, 211, 241);
+  padding: 15px;
+}
+
+.left-head {
+  margin: auto;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-decoration: none;
+}
+
+.top-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.item-menu {
+  margin: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
